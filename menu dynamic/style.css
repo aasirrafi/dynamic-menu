@@ -1,0 +1,70 @@
+
+body{
+    background-color: hsl(212, 33%, 89%);;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+
+
+.head h1{
+    text-decoration: underline;
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4.2em;
+}
+.head ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.head ul li{
+    padding: 10px;
+    
+}
+
+.head ul li a{
+    color: grey;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.menu{
+    
+}
+.menu-item{
+    max-width: 40rem;
+    padding: 10px;
+}
+
+.menu-item img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid honeydew;
+}
+
+.menu-item .article{
+    padding: 10px;
+}
+
+.article h4{
+    font-size: 1.2rem;
+    
+}
+
+.price{
+    color: brown;
+}
+
+.article header{
+    border-bottom: 1px solid grey;
+    margin-bottom: 16px;
+}
+
+.article p {
+    font-size: 0.9rem;
+    color: lightslategray;
+}
